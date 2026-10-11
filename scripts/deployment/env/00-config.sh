@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Constantes del proyecto oracle-database-lab.
-# No contiene contraseñas reales.
+# No contiene contraseñas.
 
 export CONT_NAME="oralab-26ai"
 export VOL_NAME="oralab-26ai-data"
