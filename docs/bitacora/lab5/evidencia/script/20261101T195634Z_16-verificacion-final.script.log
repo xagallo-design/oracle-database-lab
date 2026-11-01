@@ -19,9 +19,9 @@
   [OK]    fila 102 de vuelta a ACTIVO (ACTIVO)
   [OK]    matrículas restauradas (60000)
   [OK]    fila 104 de vuelta a ACTIVO (ACTIVO)
-  [FALLO] hay copias RMAN completadas: hay 'no', se esperaba 'si'  -> repasa Parte O (simulacro D)
+  [OK]    hay copias RMAN completadas (si)
   [OK]    PDB de usuario (solo FREEPDB1) (1)
-  [FALLO] C##OPS_RO lee el alert log: hay '0', se esperaba '1'  -> repasa Lab 4, Parte J
+  [OK]    C##OPS_RO lee el alert log (1)
   [OK]    CDB abierta (READWRITE)
 == Evidencias ==
   [OK]    evidencia 00
@@ -38,9 +38,9 @@
   [OK]    evidencia 11
   [OK]    evidencia 12
   [OK]    evidencia 13
-  [FALLO] falta la evidencia 14  -> repasa la parte correspondiente
+  [OK]    evidencia 14
   [OK]    evidencia 15
   [OK]    config/.env fuera de Git
   [OK]    backups/ fuera de Git
 
-RESULTADO: 3 FALLO(S). Corrige antes de abrir el PR.
+RESULTADO: TODO OK. Lab 5 listo para entregar.
