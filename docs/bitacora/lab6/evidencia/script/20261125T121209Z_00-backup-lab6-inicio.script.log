@@ -1,8 +1,10 @@
+== EVIDENCIA alumno=E023 hora=2026-11-25T12:12:09Z origen=backup-estado-lab6-inicio
+== EVIDENCIA contenedor=5c33c64d7289 dbid=1509902213 arranque=2026-11-25T12:02:34 scn=7291389
 == 1. Comprobaciones previas ==
-Volumen: 8383 MB · libre en backups/: 972038 MB
+Volumen: 8423 MB · libre en backups/: 970717 MB
 == 2. Inventario de archivos (base abierta) ==
 META|version|23.26.3.0.0
-META|base|FREE|log_mode=ARCHIVELOG|scn=7276199
+META|base|FREE|log_mode=ARCHIVELOG|scn=7291391
 FILE|datafile|/opt/oracle/oradata/FREE/system01.dbf
 FILE|datafile|/opt/oracle/oradata/FREE/pdbseed/system01.dbf
 FILE|datafile|/opt/oracle/oradata/FREE/sysaux01.dbf
@@ -20,6 +22,7 @@ FILE|datafile|/opt/oracle/oradata/FREE/FREEPDB1/retail01.dbf
 FILE|datafile|/opt/oracle/oradata/FREE/FREEPDB1/logistica01.dbf
 FILE|datafile|/opt/oracle/oradata/FREE/FREEPDB1/fintech01.dbf
 FILE|datafile|/opt/oracle/oradata/FREE/FREEPDB1/tiendasur01.dbf
+FILE|datafile|/opt/oracle/oradata/FREE/FREEPDB1/academia_hist01.dbf
 FILE|tempfile|/opt/oracle/oradata/FREE/temp01.dbf
 FILE|tempfile|/opt/oracle/oradata/FREE/pdbseed/temp01.dbf
 FILE|tempfile|/opt/oracle/oradata/FREE/FREEPDB1/temp01.dbf
@@ -36,6 +39,7 @@ FILE|spfile|/opt/oracle/product/26ai/dbhomeFree/dbs/spfileFREE.ora
 FILE|pwfile|/opt/oracle/product/26ai/dbhomeFree/dbs/orapwFREE
 == 3. Cobertura: ¿está todo dentro de /opt/oracle/oradata (el volumen)? ==
   dentro  /opt/oracle/oradata/FREE/FREEPDB1/academia01.dbf
+  dentro  /opt/oracle/oradata/FREE/FREEPDB1/academia_hist01.dbf
   dentro  /opt/oracle/oradata/FREE/FREEPDB1/clinica01.dbf
   dentro  /opt/oracle/oradata/FREE/FREEPDB1/fintech01.dbf
   dentro  /opt/oracle/oradata/FREE/FREEPDB1/logistica01.dbf
@@ -78,5 +82,5 @@ ORACLE instance shut down.
   t=0s  docker=starting  cdb/pdb=no-disponible
   t=10s  docker=healthy  cdb/pdb=READWRITE/READWRITE
 == Copia terminada ==
-1.3G	/home/xavi/oracle-database-lab/backups/20261125T114921Z_lab6-inicio
-Para restaurarla: bash scripts/ops/restaurar-estado.sh /home/xavi/oracle-database-lab/backups/20261125T114921Z_lab6-inicio
+1.3G	/home/xavi/oracle-database-lab/backups/20261125T121210Z_lab6-inicio
+Para restaurarla: bash scripts/ops/restaurar-estado.sh /home/xavi/oracle-database-lab/backups/20261125T121210Z_lab6-inicio
